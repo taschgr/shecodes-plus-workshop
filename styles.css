@@ -1,0 +1,106 @@
+/*Allgemeine Info*/
+
+body {
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.5;
+    padding-top: 15px;
+    text-transform: none;
+  }
+  
+  p {
+    letter-spacing: 1px;
+    margin-top: -20px;
+  }
+  
+  div.app-contents {
+    background: linear-gradient(
+      109.6deg,
+      rgb(17, 151, 147) 0.2%,
+      rgb(154, 214, 212) 55.4%,
+      rgb(255, 233, 171) 100.2%
+    );
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    color: rgb(15, 15, 15);
+    display: block;
+    font-size: 12px;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /* Stadtsuche */
+  
+  header.search-form {
+    margin: 20px;
+  }
+  
+  div.search-field {
+    padding-right: 4.5px;
+  }
+  
+  .form-control {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  button.btn-secondary {
+    font-size: 12px;
+    line-height: 1.6;
+    padding: 5px 9px;
+    background: #6c757d;
+  }
+  
+  div.locate-button {
+    padding: 0px 12px 0px 1px;
+  }
+  
+  div.search-button {
+    padding: 0px 2px;
+  }
+  
+  /* Aktuelle Wetteranzeige */
+  
+  i.current-weather-icon {
+    font-size: 50px;
+    padding: 3px;
+    position: relative;
+    bottom: 4px;
+  }
+  
+  span.temperature-value {
+    font-size: 70px;
+    font-weight: 900;
+  }
+  
+  a.temperature-metric {
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+    position: relative;
+    bottom: 34px;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+  }
+  
+  a.temperature-metric:hover {
+    color: rgb(108, 117, 125);
+    cursor: pointer;
+  }
+  
+  section.weather-info {
+    letter-spacing: 1px;
+    padding-top: 18px;
+    padding-bottom: 22px;
+  }
+  
+  section .headings {
+    font-weight: 900;
+  }
+  
